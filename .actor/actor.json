@@ -1,0 +1,10 @@
+{
+  "actorSpecification": 1,
+  "name": "japan-property-market-cn",
+  "title": "日本二手房市场 — 2大网站跨站比价（SUUMO+at home 中古公寓）",
+  "version": "0.1",
+  "buildTag": "latest",
+  "dockerfile": "./Dockerfile",
+  "readme": "./README.md",
+  "input": "./INPUT_SCHEMA.json"
+}
