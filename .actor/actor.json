@@ -6,5 +6,102 @@
   "buildTag": "latest",
   "dockerfile": "./Dockerfile",
   "readme": "./README.md",
-  "input": "./INPUT_SCHEMA.json"
+  "input": "./INPUT_SCHEMA.json",
+  "outputSchema": {
+    "actorOutputSchemaVersion": 1,
+    "title": "Output",
+    "description": "Property listings",
+    "type": "object",
+    "properties": {
+      "productId": {
+        "title": "Productid",
+        "type": "string",
+        "description": "Productid",
+        "template": "{{productId}}"
+      },
+      "title": {
+        "title": "Title",
+        "type": "string",
+        "description": "Title",
+        "template": "{{title}}"
+      },
+      "price": {
+        "title": "Price",
+        "type": "string",
+        "description": "Price",
+        "template": "{{price}}"
+      },
+      "address": {
+        "title": "Address",
+        "type": "string",
+        "description": "Address",
+        "template": "{{address}}"
+      },
+      "station": {
+        "title": "Station",
+        "type": "string",
+        "description": "Station",
+        "template": "{{station}}"
+      },
+      "layout": {
+        "title": "Layout",
+        "type": "string",
+        "description": "Layout",
+        "template": "{{layout}}"
+      },
+      "areaSqm": {
+        "title": "Areasqm",
+        "type": "string",
+        "description": "Areasqm",
+        "template": "{{areaSqm}}"
+      },
+      "buildingAge": {
+        "title": "Buildingage",
+        "type": "string",
+        "description": "Buildingage",
+        "template": "{{buildingAge}}"
+      },
+      "totalFloors": {
+        "title": "Totalfloors",
+        "type": "string",
+        "description": "Totalfloors",
+        "template": "{{totalFloors}}"
+      },
+      "structure": {
+        "title": "Structure",
+        "type": "string",
+        "description": "Structure",
+        "template": "{{structure}}"
+      },
+      "productUrl": {
+        "title": "Producturl",
+        "type": "string",
+        "description": "Producturl",
+        "template": "{{productUrl}}"
+      },
+      "source": {
+        "title": "Source",
+        "type": "string",
+        "description": "Source",
+        "template": "{{source}}"
+      },
+      "shop": {
+        "title": "Shop",
+        "type": "string",
+        "description": "Shop",
+        "template": "{{shop}}"
+      },
+      "ward": {
+        "title": "Ward",
+        "type": "string",
+        "description": "Ward",
+        "template": "{{ward}}"
+      }
+    },
+    "required": [
+      "productId",
+      "title",
+      "price"
+    ]
+  }
 }
